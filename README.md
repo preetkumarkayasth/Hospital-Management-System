@@ -290,10 +290,6 @@ Possible future improvements include:
 This project is intended primarily for educational and academic purposes.
 ```
 
-### One thing before you upload
-
-In this line:
-
 ```bash
 git clone https://github.com/YOUR-USERNAME/Hospital-Management-System.git
 ```
