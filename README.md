@@ -1,17 +1,18 @@
 # 🏥 Hospital Management System
 
-A simple **Hospital Management System** developed using **Python, Tkinter, and MySQL**.  
-The application provides a graphical interface for patient registration, appointment management, doctor information, hospital services, and patient data modification.
+A desktop-based **Hospital Management System** developed using **Python, Tkinter, and MySQL**.
+
+The application provides a graphical interface for patient registration, appointment management, doctor information, hospital services, and patient data management.
 
 ---
 
 ## 📌 Project Overview
 
-The Hospital Management System is a desktop-based application designed to simplify basic hospital management operations.
+The Hospital Management System is designed to provide basic hospital management functionality through a graphical user interface.
 
 The application uses:
 
-- **Python** for programming
+- **Python** for application development
 - **Tkinter** for the graphical user interface
 - **MySQL** for database management
 - **MySQL Connector/Python** for connecting Python with MySQL
@@ -21,31 +22,49 @@ The application uses:
 ## ✨ Features
 
 ### 👤 Patient Registration
-- Register new patients
-- Store patient information in the MySQL database
-- Patient details include:
-  - Patient ID
-  - Name
-  - Age
-  - Gender
-  - Phone Number
-  - Blood Group
+
+The application allows new patients to register their information.
+
+Patient details include:
+
+- Patient ID
+- Name
+- Age
+- Gender
+- Phone Number
+- Blood Group
+
+The registered information is stored in the MySQL database.
+
+---
 
 ### 📅 Appointment Management
-- Search for a registered patient
+
+The application provides an appointment interface for registered patients.
+
+It allows the user to:
+
+- Search for a registered patient using the Patient ID
 - Select a hospital department
-- Assign a doctor
+- Assign a doctor from the selected department
 - Generate an appointment date
 - Generate an appointment number
 
+---
+
 ### 👨‍⚕️ Doctor Information
-Displays:
-- Doctor names
-- Departments
-- Room numbers
+
+The application provides a list of available doctors along with:
+
+- Doctor Name
+- Department
+- Room Number
+
+---
 
 ### 🏥 Hospital Services
-Displays available hospital services such as:
+
+The application displays available hospital services, including:
 
 - X-Ray
 - MRI
@@ -57,11 +76,17 @@ Displays available hospital services such as:
 - ENMG
 - ECG
 
+---
+
 ### ✏️ Patient Data Modification
-Provides an interface for modifying registered patient information.
+
+The application provides an interface to search for existing patient information and modify patient details.
+
+---
 
 ### 🗄️ MySQL Database
-The application connects to a local MySQL server and automatically creates the required database and patient table.
+
+The application connects to a local MySQL server and creates the required database and patient table automatically.
 
 ---
 
@@ -69,16 +94,16 @@ The application connects to a local MySQL server and automatically creates the r
 
 | Technology | Purpose |
 |------------|---------|
-| Python | Application development |
+| Python | Application Development |
 | Tkinter | Graphical User Interface |
-| MySQL | Database management |
-| MySQL Connector/Python | Python-MySQL connectivity |
+| MySQL | Database Management |
+| MySQL Connector/Python | Python-MySQL Connectivity |
 
 ---
 
 ## 📋 Requirements
 
-Before running the project, make sure you have:
+Before running the project, make sure the following are installed:
 
 - Python 3.x
 - MySQL Server
@@ -86,19 +111,15 @@ Before running the project, make sure you have:
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Installation & Setup
 
 ### 1. Clone the Repository
 
-```bash
-git clone https://github.com/YOUR-USERNAME/Hospital-Management-System.git
-```
-
-Move into the project directory:
+Open Command Prompt or Terminal and run:
 
 ```bash
-cd Hospital-Management-System
-```
+git clone https://github.com/preetkumarkayasth/Hospital-Management-System.git
+
 
 ### 2. Install Required Python Package
 
